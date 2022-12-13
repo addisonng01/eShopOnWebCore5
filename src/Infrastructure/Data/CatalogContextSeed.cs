@@ -60,11 +60,11 @@ namespace Microsoft.eShopWeb.Infrastructure.Data
         {
             return new List<CatalogBrand>
             {
-                new("Azure"),
-                new(".NET"),
-                new("Visual Studio"),
-                new("SQL Server"),
-                new("Other")
+                new("Aldi"),            //was azure
+                new("Super One"),       //was .net
+                new("HyVee"),           //was visual studio
+                new("Walmart"),         //was sql server
+                new("Target")           //was other
             };
         }
 
@@ -72,10 +72,10 @@ namespace Microsoft.eShopWeb.Infrastructure.Data
         {
             return new List<CatalogType>
             {
-                new("Mug"),
-                new("T-Shirt"),
-                new("Sheet"),
-                new("USB Memory Stick")
+                new("Cup"),             //was mug   
+                new("Pants"),         //was tshirt
+                new("Blanket"),           //was sheet
+                new("Candle") //was usb memory stick
             };
         }
 
@@ -83,18 +83,18 @@ namespace Microsoft.eShopWeb.Infrastructure.Data
         {
             return new List<CatalogItem>
             {
-                new(2,2, ".NET Bot Black Sweatshirt", ".NET Bot Black Sweatshirt", 19.5M,  "http://catalogbaseurltobereplaced/images/products/1.png"),
-                new(1,2, ".NET Black & White Mug", ".NET Black & White Mug", 8.50M, "http://catalogbaseurltobereplaced/images/products/2.png"),
-                new(2,5, "Prism White T-Shirt", "Prism White T-Shirt", 12,  "http://catalogbaseurltobereplaced/images/products/3.png"),
-                new(2,2, ".NET Foundation Sweatshirt", ".NET Foundation Sweatshirt", 12, "http://catalogbaseurltobereplaced/images/products/4.png"),
-                new(3,5, "Roslyn Red Sheet", "Roslyn Red Sheet", 8.5M, "http://catalogbaseurltobereplaced/images/products/5.png"),
-                new(2,2, ".NET Blue Sweatshirt", ".NET Blue Sweatshirt", 12, "http://catalogbaseurltobereplaced/images/products/6.png"),
-                new(2,5, "Roslyn Red T-Shirt", "Roslyn Red T-Shirt",  12, "http://catalogbaseurltobereplaced/images/products/7.png"),
-                new(2,5, "Kudu Purple Sweatshirt", "Kudu Purple Sweatshirt", 8.5M, "http://catalogbaseurltobereplaced/images/products/8.png"),
-                new(1,5, "Cup<T> White Mug", "Cup<T> White Mug", 12, "http://catalogbaseurltobereplaced/images/products/9.png"),
-                new(3,2, ".NET Foundation Sheet", ".NET Foundation Sheet", 12, "http://catalogbaseurltobereplaced/images/products/10.png"),
-                new(3,2, "Cup<T> Sheet", "Cup<T> Sheet", 8.5M, "http://catalogbaseurltobereplaced/images/products/11.png"),
-                new(2,5, "Prism White TShirt", "Prism White TShirt", 12, "http://catalogbaseurltobereplaced/images/products/12.png")
+                new(2,2, "Super One Bot Black Pants", "Super One Bot Black Pants", 19.5M,  "http://catalogbaseurltobereplaced/images/products/1.png"),
+                new(1,2, "Super One Black & White Cup", "Super One Black & White Cup", 8.50M, "http://catalogbaseurltobereplaced/images/products/2.png"),
+                new(2,5, "Target White Pants", "Target White Pants", 12,  "http://catalogbaseurltobereplaced/images/products/3.png"),
+                new(3,2, "Super One Foundation Blanket", "Super One Foundation Blanket", 12, "http://catalogbaseurltobereplaced/images/products/4.png"),
+                new(3,5, "Target Red Blanket", "Target Red Blanket", 8.5M, "http://catalogbaseurltobereplaced/images/products/5.png"),
+                new(3,2, "Super One Blue Blanket", "Super One Blue Blanket", 12, "http://catalogbaseurltobereplaced/images/products/6.png"),
+                new(4,4, "Walmart Red Candle", "Walmart Red Candle",  12, "http://catalogbaseurltobereplaced/images/products/7.png"),
+                new(2,3, "HyVee Purple Pants", "HyVee Purple Pants", 8.5M, "http://catalogbaseurltobereplaced/images/products/8.png"),
+                new(1,5, "Target White Cup", "Target White Cup", 12, "http://catalogbaseurltobereplaced/images/products/9.png"),
+                new(3,2, "Super One Foundation Blanket", "Super One Foundation Blanket", 12, "http://catalogbaseurltobereplaced/images/products/10.png"),
+                new(3,1, "Aldi Blanket", "Aldi Blanket", 8.5M, "http://catalogbaseurltobereplaced/images/products/11.png"),
+                new(4,1, "Aldi White Candle", "Aldi White Candle", 12, "http://catalogbaseurltobereplaced/images/products/12.png")
             };
         }
     }
