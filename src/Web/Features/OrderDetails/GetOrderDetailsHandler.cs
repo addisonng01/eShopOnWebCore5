@@ -38,6 +38,8 @@ namespace Microsoft.eShopWeb.Web.Features.OrderDetails
                     ProductId = oi.ItemOrdered.CatalogItemId,
                     ProductName = oi.ItemOrdered.ProductName,
                     UnitPrice = oi.UnitPrice,
+                    Tax = order.Tax(),
+                    GrandTotal = order.GrandTotal(),
                     Units = oi.Units
                 }).ToList(),
                 OrderNumber = order.Id,

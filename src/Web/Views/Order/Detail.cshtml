@@ -50,15 +50,17 @@
             @for (int i = 0; i < Model.OrderItems.Count; i++)
             {
                 var item = Model.OrderItems[i];
-                <article class="esh-orders-detail-items esh-orders-detail-items--border row">
-                    <section class="esh-orders-detail-item col-md-4 hidden-md-down">
-                        <img class="esh-orders-detail-image" src="@item.PictureUrl">
-                    </section>
-                    <section class="esh-orders-detail-item esh-orders-detail-item--middle col-xs-3">@item.ProductName</section>
-                    <section class="esh-orders-detail-item esh-orders-detail-item--middle col-xs-1">$ @item.UnitPrice.ToString("N2")</section>
-                    <section class="esh-orders-detail-item esh-orders-detail-item--middle col-xs-1">@item.Units</section>
-                    <section class="esh-orders-detail-item esh-orders-detail-item--middle col-xs-2">$ @Math.Round(item.Units * item.UnitPrice, 2).ToString("N2")</section>
-                </article>
+        <article class="esh-orders-detail-items esh-orders-detail-items--border row">
+            <section class="esh-orders-detail-item col-md-4 hidden-md-down">
+                <img class="esh-orders-detail-image" src="@item.PictureUrl">
+            </section>
+            <section class="esh-orders-detail-item esh-orders-detail-item--middle col-xs-3">@item.ProductName</section>
+            <section class="esh-orders-detail-item esh-orders-detail-item--middle col-xs-1">$ @item.UnitPrice.ToString("N2")</section>
+            <section class="esh-orders-detail-item esh-orders-detail-item--middle col-xs-1">@item.Units</section>
+            <section class="esh-orders-detail-item esh-orders-detail-item--middle col-xs-2">$ @Math.Round(item.Units * item.UnitPrice, 2).ToString("N2")</section>
+            <section class="esh-orders-detail-item esh-orders-detail-item--middle col-xs-1">$ @item.Tax.ToString("N2")</section>
+            <section class="esh-orders-detail-item esh-orders-detail-item--middle col-xs-1">$ @item.GrandTotal.ToString("N2")</section>
+        </article>
             }
         </section>
 
