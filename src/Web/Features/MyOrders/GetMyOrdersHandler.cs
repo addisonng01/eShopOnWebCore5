@@ -38,7 +38,7 @@ namespace Microsoft.eShopWeb.Web.Features.MyOrders
                 }).ToList(),
                 OrderNumber = o.Id,
                 ShippingAddress = o.ShipToAddress,
-                Total = o.Total()
+                Total = o.GrandTotal()
             });
         }
     }
