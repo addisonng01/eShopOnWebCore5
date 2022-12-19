@@ -15,11 +15,11 @@ namespace Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate
             BuyerId = buyerId;
         }
 
-        public void AddItem(int catalogItemId, decimal unitPrice, int quantity = 1)
+        public void AddItem(int catalogItemId, decimal unitPrice, decimal tax, double grandTotal, int quantity = 1)
         {
             if (!Items.Any(i => i.CatalogItemId == catalogItemId))
             {
-                _items.Add(new BasketItem(catalogItemId, quantity, unitPrice));
+                _items.Add(new BasketItem(catalogItemId, quantity, unitPrice, tax, grandTotal));
                 return;
             }
             var existingItem = Items.FirstOrDefault(i => i.CatalogItemId == catalogItemId);

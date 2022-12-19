@@ -33,7 +33,7 @@ namespace Microsoft.eShopWeb.UnitTests.Builders
         {
             var basketMock = new Mock<Basket>(BasketBuyerId);
             _basket = basketMock.Object;
-            _basket.AddItem(2, 3.40m, 4);
+            _basket.AddItem(2, 3.40m, 0.06m, 4, 1);
             return _basket;
         }
     }
