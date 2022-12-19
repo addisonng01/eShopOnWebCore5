@@ -83,18 +83,18 @@ namespace Microsoft.eShopWeb.Infrastructure.Data
         {
             return new List<CatalogItem>
             {
-                new(2,2, "Super One Bot Black Pants", "Super One Bot Black Pants", 19.5M,  "http://catalogbaseurltobereplaced/images/products/1.png"),
-                new(1,2, "Super One Black & White Cup", "Super One Black & White Cup", 8.50M, "http://catalogbaseurltobereplaced/images/products/2.png"),
-                new(2,5, "Target White Pants", "Target White Pants", 12,  "http://catalogbaseurltobereplaced/images/products/3.png"),
-                new(3,2, "Super One Foundation Blanket", "Super One Foundation Blanket", 12, "http://catalogbaseurltobereplaced/images/products/4.png"),
-                new(3,5, "Target Red Blanket", "Target Red Blanket", 8.5M, "http://catalogbaseurltobereplaced/images/products/5.png"),
-                new(3,2, "Super One Blue Blanket", "Super One Blue Blanket", 12, "http://catalogbaseurltobereplaced/images/products/6.png"),
-                new(4,4, "Walmart Red Candle", "Walmart Red Candle",  12, "http://catalogbaseurltobereplaced/images/products/7.png"),
-                new(2,3, "HyVee Purple Pants", "HyVee Purple Pants", 8.5M, "http://catalogbaseurltobereplaced/images/products/8.png"),
-                new(1,5, "Target White Cup", "Target White Cup", 12, "http://catalogbaseurltobereplaced/images/products/9.png"),
-                new(3,2, "Super One Foundation Blanket", "Super One Foundation Blanket", 12, "http://catalogbaseurltobereplaced/images/products/10.png"),
-                new(3,1, "Aldi Blanket", "Aldi Blanket", 8.5M, "http://catalogbaseurltobereplaced/images/products/11.png"),
-                new(4,1, "Aldi White Candle", "Aldi White Candle", 12, "http://catalogbaseurltobereplaced/images/products/12.png")
+                new(2,2, "Super One Bot Black Pants", "Super One Bot Black Pants", 19.5M,  "http://catalogbaseurltobereplaced/images/products/1.png", "M"),
+                new(1,2, "Super One Black & White Cup", "Super One Black & White Cup", 8.50M, "http://catalogbaseurltobereplaced/images/products/2.png", "M"),
+                new(2,5, "Target White Pants", "Target White Pants", 12,  "http://catalogbaseurltobereplaced/images/products/3.png", "M"),
+                new(3,2, "Super One Foundation Blanket", "Super One Foundation Blanket", 12, "http://catalogbaseurltobereplaced/images/products/4.png", "M"),
+                new(3,5, "Target Red Blanket", "Target Red Blanket", 8.5M, "http://catalogbaseurltobereplaced/images/products/5.png", "M"),
+                new(3,2, "Super One Blue Blanket", "Super One Blue Blanket", 12, "http://catalogbaseurltobereplaced/images/products/6.png", "M"),
+                new(4,4, "Walmart Red Candle", "Walmart Red Candle",  12, "http://catalogbaseurltobereplaced/images/products/7.png", "M"),
+                new(2,3, "HyVee Purple Pants", "HyVee Purple Pants", 8.5M, "http://catalogbaseurltobereplaced/images/products/8.png", "M"),
+                new(1,5, "Target White Cup", "Target White Cup", 12, "http://catalogbaseurltobereplaced/images/products/9.png", "M"),
+                new(3,2, "Super One Foundation Blanket", "Super One Foundation Blanket", 12, "http://catalogbaseurltobereplaced/images/products/10.png", "M"),
+                new(3,1, "Aldi Blanket", "Aldi Blanket", 8.5M, "http://catalogbaseurltobereplaced/images/products/11.png", "M"),
+                new(4,1, "Aldi White Candle", "Aldi White Candle", 12, "http://catalogbaseurltobereplaced/images/products/12.png", "M")
             };
         }
     }
